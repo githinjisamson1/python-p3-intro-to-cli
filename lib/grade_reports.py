@@ -19,7 +19,12 @@ if __name__ == '__main__':
     create_grade_report(student_grades)
 
 # TODO: BEST PRACTICES IN CLI DESIGN
+
+
 '''
+
+A CLI (Command Line Interface) application is a type of software program that allows users to interact with the computer or a system by typing text-based commands into a terminal or command prompt. Instead of using a graphical user interface (GUI) with buttons and icons, users interact with a CLI application by entering commands in the form of text.
+
 Separate user input from functionality
 A CLI depends on user input and a lot of code to act on it, but that doesn't mean it all has to be in the same place. As with any other Python program, your CLI should be grouped into classes and functions. Your scripted code- that is, the code inside of your if __name__ == '__main__' block- should only include user input and calls to classes and functions.
 
